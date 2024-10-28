@@ -60,3 +60,4 @@ class TestBowlingGame(unittest.TestCase):
         game.add_frame(Frame(8, 1))
         game.add_frame(Frame(2, 6))
         self.assertEqual(81, game.calculate_score())
+
